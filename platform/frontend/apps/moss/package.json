@@ -1,0 +1,20 @@
+{
+  "name": "@moss/studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "build": "vite build",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "node --test --test-isolation=none tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@vben-core/layout-ui": "workspace:*",
+    "@vben-core/shadcn-ui": "workspace:*",
+    "@vben-core/design": "workspace:*",
+    "@vben/tailwind-config": "workspace:*",
+    "vue": "catalog:",
+    "naive-ui": "catalog:"
+  }
+}

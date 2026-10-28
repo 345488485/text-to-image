@@ -1,0 +1,27 @@
+{
+  "name": "moss-vben-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "pnpm --filter @moss/studio dev",
+    "build": "pnpm --filter @moss/studio build",
+    "typecheck": "pnpm --filter @moss/studio typecheck",
+    "test": "pnpm --filter @moss/studio test"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "@vitejs/plugin-vue": "catalog:",
+    "@tailwindcss/vite": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vue-tsc": "catalog:",
+    "@vben/tsconfig": "workspace:*"
+  },
+  "engines": {
+    "node": "^22.18.0 || ^24.12.0",
+    "pnpm": ">=11.0.0"
+  }
+}
