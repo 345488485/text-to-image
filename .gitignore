@@ -42,3 +42,9 @@ docs/*校验.json
 platform/*VERIFICATION.json
 platform/DELIVERY.json
 platform/frontend/FRONTEND-VERIFICATION.json
+
+# Documentation stays local; publish only the repository landing page.
+**/*.[mM][dD]
+**/*.[mM][aA][rR][kK][dD][oO][wW][nN]
+**/*.[mM][dD][xX]
+!/README.md
